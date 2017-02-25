@@ -73,6 +73,7 @@ article,section{
     margin: 20px;
     padding: 20px;
     background-color: #FFF;
+    box-shadow:1px 1px 2px 1px #848484;
 }
 
 article p{
@@ -138,25 +139,20 @@ article p{
 /** ========================侧边栏样式================**/
 aside{
     margin: 20px;
+    padding: 20px;
     background-color: #FFF;
 }
 
 aside hgroup{
     margin:auto 0;
 }
-aside .htip{
-    display: inline-block;
-    width: 4px;
-    height: 50px;
-    line-height: 50px;
-    background-color: #bbb;
-}
 
 aside h2{
-    display: inline-block;
+    border-left: 4px solid #bbb;
+    padding: 10px;
     font-size: 20px;
-    height: 50px;
-    line-height: 50px;
+    height: 30px;
+    line-height: 30px;
     color: #666;
 }
 .sideform div label{
@@ -175,9 +171,13 @@ aside h2{
 }
 
 .sideform button{
-    height: 38px;
-    width: 100%;
-    background-color: royalblue;
+    width:100%;
+    height:40px;
+    border-radius: 10px;
+    background: #0378E2;
+    color: white;
+    font-size: 19px;
+    border:none;
 
 }
 /** =====================尾部样式================= **/
